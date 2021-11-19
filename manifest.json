@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "gif-blaster",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/orgs/*/teams/*"
+      ],
+      "js": [
+        "gif-blaster.js"
+      ]
+    }
+  ]
+}
